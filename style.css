@@ -48,18 +48,40 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 50px;
-    color: black;
-    font-style: italic;
+    color: white;
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p{
+            color: #E9D9A3;
+        }
+    }
+
+    .traco{
+        height: 2px;
+        background-color: #B53A27;
+        width: 10px;
+    }
 
     h1{
         font-size: 75px;
         font-weight: 700;
         color: white;
         width: 540px;
+        font-style: italic;
     }
 
     span{
         color: #E9D9A3;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 200;
+        width: 400px;
+        padding: 25px 25px 25px 0px;
     }
 }
 
