@@ -191,3 +191,41 @@ header {
     object-fit: cover;
     object-position: center;
 }
+
+
+.abertura{
+    display: flex;
+    margin-top: 63px;
+    margin-left: 32px;
+    
+.barra{
+    display: flex;
+    margin-top: 5px;
+    color: rgb(180, 48, 39);
+}
+
+.abrt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 700px;
+}
+
+H1{
+    display: flex;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(38px, 4vw, 48px);
+
+    line-height: 0.92;
+
+    font-weight: 520;
+}
+
+span{
+    color: rgb(180, 48, 39);
+
+    font-style: italic;
+}
+
+}
