@@ -543,10 +543,11 @@ span{
 
 .descricaos {
     margin-bottom: 15px;
-
+    width: 400px;
     font-family: Arial, sans-serif;
 
-    font-size: 20px;
+    margin-top: 8px;
+    font-size: 15px;
     line-height: 1.5;
 
     color: #fafaf9;
@@ -555,22 +556,20 @@ span{
 
 
 .textofinal button {
-    width: 138px;
+    width: 160px;
     height: 45px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border: none;
-
-    background-color: #101c1c;
-
+    border: 1px solid color(#ffffff );
+    background-color: #162923;
     color: white;
 
     font-family: Arial, sans-serif;
 
-    font-size: 8px;
+    font-size: 9px;
     letter-spacing: 0.5px;
 
     cursor: pointer;
