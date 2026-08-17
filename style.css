@@ -133,3 +133,86 @@ main{
         color: #B53A27;
     }
 }
+
+.pausa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-direction: column;
+    background-color: rgb(250, 245, 234);
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+
+    .traco{
+        height: 2px;
+        background-color: #B53A27;
+        width: 20px;
+    }
+
+    .partes{
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .parte{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-left: 25px;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+        padding-right: 150px;
+        margin-left: 0px;
+        gap: 25px;
+
+        .desq{
+            color: #B53A27;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+
+        h2{
+            font-weight: 500;
+            font-size: 35px;
+            margin-left: -55px;
+        }
+
+        .tx3{
+            margin-left: 0px;
+        }
+
+        p{
+            width: 275px;
+            font-size: 20px;
+            font-weight: 500;
+
+            span{
+                font-size: 18px;
+                color: #B53A27;
+                margin-left: 10px;
+            }
+        }
+
+        .prova{
+            font-size: 15px;
+        }
+    }
+
+    .p1{
+        padding-left: 0px;
+    }
+
+    .p3{
+        border-right: none;
+    }
+
+    .descp{
+        margin-left: 0px;
+    }
+}
