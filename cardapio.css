@@ -450,3 +450,133 @@ span{
     
 }
 
+.caixafinal {
+    width: 100%;
+    height: calc(80vh - 5px);
+    margin-top: 190px;
+    display: flex;
+
+    overflow: hidden;
+}
+
+
+
+.textofinal{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 7%;
+    padding-bottom: 10px;
+
+    background-color: #162923 ;
+}
+
+
+/* LINHA VERMELHA */
+
+.linhas {
+    width: 18px;
+    height: 2px;
+
+    background-color: rgb(205, 92, 21);
+
+    margin-bottom: 8px;
+}
+
+
+
+.subtitulos {
+    margin-bottom: 12px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    color: #f8f8f8;
+}
+
+
+.textofinal h1 {
+    margin-bottom: 10px;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: clamp(60px, 4vw, 48px);
+
+    line-height: 0.92;
+
+    font-weight: 500;
+
+    color: #feffff;
+}
+
+.textofinal h1 span {
+    color: rgb(180, 48, 39);
+
+    font-style: italic;
+}
+
+
+.descricaos {
+    margin-bottom: 15px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #fafaf9;
+}
+
+
+
+.textofinal button {
+    width: 138px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+
+    background-color: #101c1c;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+}
+
+.textofinal button:hover {
+    background-color: #263434;
+}
+
+
+.imagemfinal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: #162923 ;
+    overflow: hidden;
+}
+
+.imagemfinal img {
+    width: 100%;
+    height: 80%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
