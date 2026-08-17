@@ -1,13 +1,124 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #F4EFE5;
 }
 
 header{
     display: flex;
     justify-content: space-around;
- 
-    a{
-       display: flex; 
+    align-items: center;
+    
+    img{
+        width: 150px;
     }
+    h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    a{
+        margin: 10px; 
+        color: rgb(2, 60, 5);
+        font-size: 15px;
+        text-decoration: none;
+    }
+}
+.decoracao{
+    &:hover{
+        transition: 1s;
+        color: #B53A27;
+    text-decoration: double;
+    }
+}
+.linha{
+    border: rgba(0, 0, 0, 0.292) solid 1px
+}
+.escrita{
+    display: flex;
+    width: 580px;
+    font-size: 90px;
+    span{
+        color: #B53A27;
+    }
+}
+.informacao{
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 200px;
+    width: 600px;
+    height: auto;
+    margin-left: 40px;
+}
+.bara{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    border: solid ;
+    background-color: #026018;
+}
+.bara1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    border: solid 2px;
+    margin-left: 20px;
+}   
+.barras{
+    display: flex;
+    margin-top: 30px;
+}
+.mapa{
+    margin-top: 150px;
+    flex: 1;    
+}
+.mapa iframe{
+    width:600px;
+    height:600px;
+    margin-left: 120px;
+    border:none;
+    border-radius:20px;
+    filter: grayscale(100%);
+}
+.informacoes{
+    display: flex;
+}
+.funcionamento{
+    display: flex;
+}
+.onde{
+    p{
+        font-size: 25px;
+        width: 220px;
+    }
+    h3{
+      color: #B53A27;  
+    }
+    h4{
+        margin-top: 5px;
+        font-weight: 200;
+
+    }
+  
+}
+.horario{
+    width: 200px;
+    h2{
+     font-size: 15px ;
+     width: 200px;
+     color: gray;
+    }
+    span{
+        color: black;
+    }
+h3{
+    color: #B53A27;
+}
+}
+.fale-conosco{
+    color: rgb(78, 77, 77);
+    h3{
+        color: #B53A27;
+    }
+
 }
