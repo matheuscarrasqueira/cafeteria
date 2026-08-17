@@ -603,3 +603,19 @@ span{
     object-position: center;
 }
 
+.fim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 420px;
+    margin-top: -50px;
+    color: #feffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    img{
+        width: 10%;
+        color: #fafaf9;
+    }
+
+}
+
