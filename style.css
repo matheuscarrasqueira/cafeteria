@@ -34,6 +34,10 @@ header {
     a {
         text-decoration: none;
         color: rgba(0, 0, 0, 0.75);
+
+        span{
+            color: #B53A27;
+        }
     }
 }
 
@@ -71,16 +75,16 @@ main{
         font-weight: 700;
         color: white;
         width: 540px;
-        font-style: italic;
     }
 
     span{
+        font-style: italic;
         color: #E9D9A3;
     }
 
     p{
         font-size: 20px;
-        font-weight: 200;
+        font-weight: 100;
         width: 400px;
         padding: 25px 25px 25px 0px;
     }
@@ -92,6 +96,10 @@ main{
 
         span{
             margin: 0px 20px 0px 10px;
+        }
+
+        .dgb{
+            color: #B53A27;
         }
     }
 
@@ -260,5 +268,18 @@ main{
         background-color: black;
         color: #E9D9A3;
         cursor: pointer;
+    }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #172923;
+    color: #E9D9A3;
+    padding: 25px;
+
+    img{
+        width: 150px;
     }
 }
