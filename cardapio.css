@@ -259,6 +259,194 @@ span{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 22px;
     font-size: 13px;
+}
+
+.cards{
+    display: flex;
+    gap: 32px;
+    margin-left: 32px;
+    margin-top: 32px;
     
+    .te{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-espresso.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+
+    .tr{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-cold-brew-tonica.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+
+    .tb{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-toast-cogumelos.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+    img{
+     width: 500px;
+     height: 500px;
+
+    display: flex;
+}
     
 }
+
+.cardes{
+    display: flex;
+    gap: 32px;
+    margin-left: 32px;
+    margin-top: 172px;
+    
+    .et{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-coado.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+
+    .rt{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-pao-de-queijo.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+
+    .bt{
+        height: 440px;
+        width: 440px;
+        background-image: url(images/product-matcha.jpg);
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            display: flex;
+            font-size: 33px;
+            margin-top: 463px;
+            font-weight: 600;
+        }
+
+        h4{
+            display: flex;
+            margin-top: 9px;
+        }
+
+        p{
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 3px;
+        }
+    }
+
+
+
+
+
+    img{
+     width: 500px;
+     height: 500px;
+
+    display: flex;
+}
+    
+}
+
