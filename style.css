@@ -216,3 +216,49 @@ main{
         margin-left: 0px;
     }
 }
+
+.gole{
+    width: 100%;
+    background-color: #E9D9A3;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 500px;
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+
+    .traco{
+        height: 2px;
+        background-color: #B53A27;
+        width: 20px;
+    }
+
+    h2{
+        font-size: 75px;
+        width: 840px;
+        text-align: center;
+        
+        span{
+            color: #B53A27;
+            font-style: italic;
+        }
+    }
+
+    button{
+        padding: 15px;
+        font-size: 10px;
+        border: none;
+        background-color: black;
+        color: #E9D9A3;
+        cursor: pointer;
+    }
+}
