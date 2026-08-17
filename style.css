@@ -118,3 +118,18 @@ main{
         height: 650px;
     }
 }
+
+.azul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: rgb(125, 225, 225);
+    font-size: 25px;
+    font-weight: 500;
+    span{
+        color: #B53A27;
+    }
+}
