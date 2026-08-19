@@ -72,6 +72,15 @@ header{
     margin-top: 150px;
     flex: 1;    
 }
+.caixa-iframe{
+    background-color: rgb(37, 128, 207);
+    width: 50px;
+    
+    position: absolute;
+    button{
+        border: none;
+    }
+}
 .mapa iframe{
     width:600px;
     height:600px;
@@ -79,6 +88,7 @@ header{
     border:none;
     border-radius:20px;
     filter: grayscale(100%);
+    position: relative;
 }
 .informacoes{
     display: flex;
@@ -121,4 +131,61 @@ h3{
         color: #B53A27;
     }
 
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #026018;
+    img{
+        width: 150px;
+        background-color: #026018;
+    }
+    h2{
+        background-color: #026018;
+        color: rgb(255, 255, 255);
+    }
+    p{
+     background-color: #026018;
+        color: white;
+    }
+}
+.rodape{
+    background-color: #026018;
+}
+.email{ 
+    display: flex;
+    align-items: center;
+     border-bottom: 2px solid #b9b9b5;
+    padding-bottom: 12px; 
+    input{
+        border: none;
+        margin-top: 20px;
+
+    }
+    button{
+        border: none;
+        color: #B53A27;
+        margin-left: 400px;
+        width: 50px;
+    }
+}
+.balcao{
+    margin-top: 20px;
+    h2{
+        margin-top: 10px
+    }
+}
+.vem-linha{
+    width: 20px;
+    height: 2px;
+    background-color: #B53A27;
+}
+.vem{
+    display: flex;
+    align-items: center;
+    h2{
+        margin-left: 10px;
+        font-weight: 300;
+    }
 }
