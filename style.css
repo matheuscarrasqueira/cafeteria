@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+
+    img {
+        width: 150px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.75);
+            transition: 1s all;
+
+            &:hover {
+                transition: 1s all;
+                border-bottom: 2px solid #B53A27;
+            }
+        }
+
+        .select {
+            border-bottom: 2px solid #B53A27;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.75);
+
+        span {
+            color: #B53A27;
+        }
+    }
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.htext {
+    background-color: #172923;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    width: 50%;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        p {
+            color: #E9D9A3;
+        }
+    }
+
+    .traco {
+        height: 2px;
+        background-color: #B53A27;
+        width: 10px;
+    }
+
+    h1 {
+        font-size: 75px;
+        font-weight: 700;
+        color: white;
+        width: 540px;
+    }
+
+    span {
+        font-style: italic;
+        color: #E9D9A3;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 100;
+        width: 400px;
+        padding: 25px 25px 25px 0px;
+    }
+
+    .ch {
+        width: 100%;
+        margin-left: 15px;
+        font-size: 16px;
+
+        span {
+            margin: 0px 20px 0px 10px;
+        }
+
+        .dgb {
+            color: #B53A27;
+        }
+    }
+
+    .rua {
+        width: 100%;
+
+        span {
+            color: #B53A27;
+        }
+    }
+}
+
+.himg {
+    background-color: #E9D9A3;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    .img {
+        background-image: url(images/hero-barista.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 650px;
+        height: 650px;
+    }
+}
+
+.azul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: rgb(125, 225, 225);
+    font-size: 25px;
+    font-weight: 500;
+
+    span {
+        color: #B53A27;
+    }
+}
+
+.pausa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-direction: column;
+    background-color: rgb(250, 245, 234);
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+
+    .traco {
+        height: 2px;
+        background-color: #B53A27;
+        width: 20px;
+    }
+
+    .partes {
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .parte {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-left: 25px;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+        padding-right: 150px;
+        margin-left: 0px;
+        gap: 25px;
+
+        .desq {
+            color: #B53A27;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: 35px;
+            margin-left: -55px;
+        }
+
+        .tx3 {
+            margin-left: 0px;
+        }
+
+        p {
+            width: 275px;
+            font-size: 20px;
+            font-weight: 500;
+
+            span {
+                font-size: 18px;
+                color: #B53A27;
+                margin-left: 10px;
+            }
+        }
+
+        .prova {
+            font-size: 15px;
+            width: 200px;
+            margin-right: 75px;
+            cursor: pointer;
+        }
+    }
+
+    .p1 {
+        padding-left: 0px;
+    }
+
+    .p3 {
+        border-right: none;
+    }
+
+    .descp {
+        margin-left: 0px;
+    }
+}
+
+.gole {
+    width: 100%;
+    background-color: #E9D9A3;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 500px;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+
+    .traco {
+        height: 2px;
+        background-color: #B53A27;
+        width: 20px;
+    }
+
+    h2 {
+        font-size: 75px;
+        width: 840px;
+        text-align: center;
+
+        span {
+            color: #B53A27;
+            font-style: italic;
+        }
+    }
+
+    button {
+        padding: 15px;
+        font-size: 10px;
+        border: none;
+        background-color: black;
+        color: #E9D9A3;
+        cursor: pointer;
+        transition: 1s all;
+
+        &:hover {
+            transition: 1s all;
+            transform: scale(1.2);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #172923;
+    color: #E9D9A3;
+    padding: 25px;
+
+    img {
+        width: 150px;
+    }
+}
